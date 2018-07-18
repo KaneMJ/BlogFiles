@@ -1,0 +1,508 @@
+html {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.headerWrapper {
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+}
+
+.absoluteWrapper {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    filter: brightness(80%);
+    text-align: center;
+    object-fit: cover;
+    transform: translateY(-35%);
+}
+
+.zblog {
+    position: absolute;
+    top: 22%;
+    left: 18%;
+    max-height: 70px;
+    transform: translateX(-15%);
+}
+
+.nav {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-family: 'Verdana';
+}
+
+.nav a:hover {
+    color: rgb(255, 102, 0);
+    font-weight: bolder;
+}
+
+.visitZettler a {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.visitZettler a:hover {
+    background-color: rgb(209, 84, 0);
+    color: white;
+}
+
+.headerDiv {
+    height: 20px;
+    position: absolute;
+    top: 55%;
+    left: 24%;
+    transform: translateX(-15%);
+}
+
+.featuredWrapper {
+    height: 400px;
+}
+
+.innerContent {
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 330px;
+    padding: 35px 20px;
+}
+
+.blogImage, .blogContent {
+    width: 50%;
+}
+
+.blogImage {
+    float: left;
+    height: 300px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.helper img {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 70%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.blogContent {
+    float: right;
+}
+
+.blogContent h3{
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 0;
+    margin-left: 8px;
+    color: rgb(28,109,235);
+}
+
+.blogContent h1 {
+    font-family: 'Source Sans Pro';
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 32px;
+}
+
+.blogContent p{
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.blogContent button {
+    float: right;
+    padding: 10px 20px;
+    background-color: rgb(28,109,235);
+    outline: 2px solid rgb(28,109,235);
+    outline-offset: 2px;
+    border: none;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.blogContent button:hover {
+    outline-offset: 3px;
+    transform: scale(1.1);
+}
+
+.mainBlogTopicWrapper {
+    background-color: rgb(236, 236, 236);
+    height: 500px;
+}
+
+.blogTopicWrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 485px;
+    padding: 0 20px 15px 20px;
+}
+
+.title {
+    font-family: 'Source Sans Pro';
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.cardWrapper {
+    width: 100%;
+    height: 385px;
+}
+
+.transformerCard, .displayCard, .relayCard {
+    height: 385px;
+    width: 31.5%;
+    display: inline-block;
+}
+
+.transformerCard {
+    margin-right: 2%;
+}
+
+.displayCard {
+    margin-right: 2%;
+}
+
+.imgDiv {
+    background-color: white;
+    height: 60%;
+}
+
+.description {
+    background-color: rgb(255,102,0);
+    height: 40%;
+    color: white;
+}
+
+.description h3 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+.imgDiv img {
+    display: block;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutZettlerWrapper {
+    height: 400px;
+}
+
+.aboutZettlerInnerContent {
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 330px;
+    padding: 35px 20px;
+}
+
+.aboutZettlerContainer {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.aboutZettler {
+    margin: 0 auto;
+    width: 100%;
+    height: 330px;
+    background-color: rgb(28,109,235);
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+
+.aboutZettler h2 {
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutZettler p {
+    padding: 10px 25px;
+    color: #dedede;
+    margin-top: 0px;
+}
+
+.aboutZettler div {
+    text-align: center;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.aboutZettler div button {
+    padding: 10px 20px;
+    background-color: white;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    border: none;
+    color: rgb(28,109,235);
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.aboutZettler a {
+    text-decoration: none;
+    color: rgb(28,109,235);
+}
+
+.aboutZettler a:link {
+    color: rgb(28,109,235);
+}
+
+.aboutZettler div button:hover {
+    outline-offset: 3px;
+    transform: scale(1.1);
+}
+
+.zLogoDiv {
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+.zLogo {
+    width: 100%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.zLogo img {
+    max-width: 95%;
+    padding-left: 5%;
+    margin-top: 175px;
+    transform: translateY(-50%);
+}
+
+.footerWrapper {
+    background-color: rgb(255,102,0);
+    height: 125px;
+}
+
+.footerInnerContent {
+    background-color: rgb(255,102,0);
+}
+
+.footerInnerContent {
+    max-width: 1120px;
+    margin: 0 auto;
+    color: white;
+    padding: 35px 20px;
+}
+
+.copyright p {
+    text-align: left;
+}
+
+.linkTags {
+    text-align: right;
+}
+
+.zettlerLinks a, .linkTags a {
+    margin-right: 10px;
+}
+
+.zettlerLinks a {
+    text-decoration: none;
+}
+
+.zettlerLinks a:visited, .zettlerLinks a:link {
+    color: white;
+}
+
+.linkTags a:link, .linkTags a:visited {
+    color: #66656f;
+}
+.linkTags i:hover{
+    transform: scale(1.5);
+    color: black;
+}
+
+.zettlerLinks a:hover {
+    color: #66656f;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 880px) {
+    .wrapper {
+        max-width: 880px;
+    }
+
+    .image {
+        height: 600px;
+    }
+
+    .zblog{
+        height: 40px;
+    }
+
+    .nav a {
+        padding: 12px 10px;
+    }
+
+    .blogContent {
+        float: none;
+    }
+
+    .blogContent, .blogImage {
+        width: auto;
+    }
+
+    .blogImage {
+        float: right;
+        height: 150px;
+    }
+    
+    .helper {
+        height: 150px;
+    }
+    
+    .helper img {
+        margin: 15% 5%;
+    }
+
+    .blogContent h1 {
+        font-size: 26px;
+    }
+    .transformerCard, .displayCard, .relayCard {
+        margin-top: 10px;
+        height: 125px;
+        width: 95%;
+        display: block;
+        margin-left: 2.5%;
+    }
+
+    .relayCard {
+        margin-bottom: 10px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .imgDiv {
+        display: inline-block;
+        width: 25%;
+        height: 100%;
+    }
+
+    .description {
+        display: inline-block;
+        width: 72.5%;
+        height: auto;
+        vertical-align: top;
+        height: 100%;
+    }
+    
+    .blogTopicWrapper {
+        padding: 0;
+    }
+
+    .description h3{
+        font-size: 40px;
+    }
+
+    .description p {
+        float: none;
+        text-align: center;
+    }
+
+    .aboutZettlerContainer {
+        float: none;
+        width: 100%;
+        height: 330px;
+    }
+
+    .aboutZettlerWrapper {
+        height: 500px;
+    }
+
+    .aboutZettlerInnerContent {
+        height: 430px;
+    }
+
+    .zLogoDiv {
+        float: none;
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+
+    .zLogo img{
+        position: absolute;
+        top: 70%;
+        padding-left: 0;
+        max-width: 100%;
+        margin: 0 auto;
+        transform: translateY(-50%);
+    }
+}
+
